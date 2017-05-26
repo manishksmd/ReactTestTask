@@ -8,7 +8,7 @@ There are two methods for getting started with this repo.
 Checkout this repo, install dependencies, follow below instructions:
 
 ```
-	> git clone https://github.com/manishksmd/ReactTestTask
+	> git clone https://github.com/manishksmd/ReactTestTask.git
 	> cd ReactTestTask
 	> npm install
 	> npm start

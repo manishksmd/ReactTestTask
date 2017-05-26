@@ -1,0 +1,241 @@
+/*background*/
+$primary_bg: #f5f5f5
+$Blue_bg: #0272b6
+$dark_blue: #025a90
+$sidenav_bg: #2a323c
+$transparent_wht: rgba(255, 255, 255, 0.2)
+$light_wht: #f3f3f3
+$transparent_grey: rgba(0, 0, 0, 0.075)
+$transparent: rgba(0, 0, 0, 0)
+
+/*text color*/
+$primary_text: #686868
+$secondary_text: #000000
+$lighter_black: #2a323c
+$dark_grey: #474e57
+$light_grey: #757575
+$lighter_grey: #848484
+$white_text: #ffffff
+$blue_text: #0272b6
+
+/*font size*/
+$font14: 14px
+$font15: 15px
+$font16: 16px
+$font18: 18px
+$font20: 20px
+
+/*font weight*/
+$weight4: 400
+$weight5: 500
+$weight6: 600
+$weight7: 700
+
+/*border*/
+$border0: 0px
+$grey_border:1px solid #9e9e9e
+$blue_left_border: 3px solid #0272b6
+$light_grey_border: 1px solid #eceeef
+$radius3: 3px
+$radius20: 20px
+
+/*text transform*/
+$caps: uppercase
+$normal: capitalize
+
+/*Buttons*/
+$primary-button: #0272b6
+$secondary-button: #b1b1b1
+$grey-button: #e3e3e3
+$green-button: #169589
+
+/*Button shadow*/
+$shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2)
+
+/*-------------body-------------*/
+.mainbg_primary_text
+	background: $primary_bg
+	color: $primary_text
+	font-size: $font16
+
+body
+	@extend .mainbg_primary_text
+
+.sub-title
+	color: $secondary_text
+	font-size: $font16
+	font-weight: $weight5
+
+.welcome-bar .page-title
+	color: $lighter_black
+	font-size: $font16
+	 
+label
+	color: $light_grey
+	font-size: $font15	
+	font-weight: $weight4
+
+.breadcrumb li a
+	color: $lighter_grey
+	font-size: $font14
+
+.breadcrumb li.active
+	color: $lighter_black
+
+/*---------Buttons---------*/	
+.blue-btn
+	background: $primary-button
+	color: $white_text
+	font-size: $font14
+	box-shadow: $shadow
+	font-weight: $weight6
+	border: $border0
+	border-radius: $radius3
+	-webkit-border-radius: $radius3
+	text-transform: $caps
+
+.grey-btn
+	@extend .blue-btn
+	background: $secondary-button
+	
+.medi-floor button
+	background:	$grey-button
+	color: $primary_text
+	font-size: $font15
+	font-weight: $weight6
+	border-radius: $radius20
+	-webkit-border-radius: $radius20
+	
+.medi-floor button:hover, .medi-floor li.active button
+	background: $green-button
+	color: $white_text
+	
+.patient-list button.action-btn
+	color: $primary_text
+	font-size: $font16
+	background: $transparent
+	
+/*----------header----------*/
+header
+	background: $Blue_bg
+
+.ham, .checkin-btn > button, .drop-box
+	color: $white_text
+
+/*hover*/
+.checkin-btn > button:hover, .user-btn:hover, 
+.checkin-btn > button:hover, .user-btn:hover,
+.user-btn .dropdown-menu li a:hover
+	background: $dark_blue
+	color: $white_text
+	
+/*--------side nav--------*/	
+#sidebar-wrapper
+	background: $sidenav_bg
+
+.sidebar-nav li a:hover, .sidebar-nav li.active a
+	color: $white_text
+
+.sidebar-nav li a:hover, .sidebar-nav li.active a
+	background: $transparent_wht
+	border-left: $blue_left_border
+
+
+/*--------Dashboard page--------*/
+.dash-head
+	background: $Blue_bg
+
+.head-title
+	color: $white_text
+
+.dash-content h3
+	color: $primary_text
+	
+/*--------signoutlist page--------*/	
+.sign-whtbox h2
+	color: $dark_grey
+	
+/*---------services---------*/
+.content-title
+	color: $secondary_text
+	font-size: $font16
+
+.blue-text
+	color: $blue_text
+
+.service-box h3
+	color: $secondary_text
+	font-size: $font16
+	font-weight: $weight6
+
+.service-box p
+	color: $primary_text
+	font-size: $font14
+
+.service-box button
+	font-size: $font14
+	font-weight: $weight6
+	background: $secondary-button
+	text-transform: $normal
+
+/*---------table---------*/
+table th, .patient-list thead th, .add-pt-table th
+	font-size: $font16
+	font-weight: $weight6
+	color: $primary_text
+
+table td, .patient-list tr, .patient-list td, .add-pt-table td
+	font-size: $font14
+	font-weight: $weight4
+	color: $primary_text
+
+.table-hover tbody tr:hover
+	background: $transparent_grey
+
+.table .service-tb
+	background: $light_wht
+	border: light_grey_border
+	
+/*----------form------------*/
+.inputMaterial
+	color: $light_grey
+	font-size: $font15
+	border-bottom: $grey_border
+
+.bar::before, .bar::after
+	background: $Blue_bg
+
+.custom-box button.btn
+	border-bottom: $grey_border
+
+.custom-box .filter-option
+	color: $light_grey
+	font-size: $font15
+
+.custom-box .rw-widget
+	border-bottom: $grey_border
+
+.custom-box .rw-multiselect-wrapper > .rw-input
+	font-size: $font15
+	font-weight: $weight4
+	
+.rw-multiselect-wrapper > .rw-input::-moz-placeholder
+	color: $light_grey
+
+/*-------login-----*/
+.login-form h2
+	background: $primary_bg
+	color: $primary_text
+	font-size: $font18
+	font-weight: $weight6
+	
+/*---dropdown---*/
+.user-btn .dropdown-menu li a
+	color: $primary_text
+	font-size: $font14
+	
+	
+	
+
+
+	

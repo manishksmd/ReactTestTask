@@ -1,0 +1,64 @@
+header {background:url(../images/header-bg.png) 0 0 repeat; text-align: center; padding: 5px}
+body{background: #1E1E1E}
+ul.tabs {margin: 0 -15px; padding: 0; float: left; list-style: none; height: 50px; width: 100%;}
+.bottom-panel {background: #1e1e1e; padding: 30px}
+.time {color: #bebebe}
+.top-panel{background:#353535}
+.top-panel img {width: 100%}
+.bottom-panel ul {padding: 0}
+.bottom-panel li {list-style: none; padding: 5px 0; margin-bottom: 5px; float:left;width: 100%;  border-bottom: 1px solid #fff;}
+.bottom-panel h5 {color: #bebebe; text-transform: uppercase;font-weight: 500; display: inline-block;}
+.bottom-panel h5 span {margin-left: 10px;font-weight: 300; color: #ababab}
+.remove {color: #bebebe}
+.bottom-panel ul.tabs li { 	float: left;	margin: 0;	cursor: pointer;	width: 25%;padding: 0px 21px;	height: 50px;	line-height: 50px;	border-bottom: 1px solid transparent;	border-left: 1px solid transparent;border-right: 1px solid transparent;	background-color: transparent;	color: #fff; overflow: hidden;	position: relative;text-align: center; text-transform:uppercase;font-size: 16px}
+.bottom-panel .tab_last { border-right: 1px solid transparent; }
+.bottom-panel ul.tabs li:hover { border-color: #fff}
+.bottom-panel ul.tabs li.active {border-color: #fff;	display: block;}
+.tab_container {	border-top: none;	clear: both;	float: left;	width: 100%;	overflow: auto;min-height: 560px}
+.tab_content {	display: none;}
+.tab_drawer_heading { display: none; }
+form {display: block; padding: 25px; border: 1px solid #ddd; border-radius:4px; margin-top: 25px; background: #fff}
+
+@media screen and (max-width: 480px) {
+	.tabs {
+		display: none;
+	}
+	.tab_drawer_heading {
+		background-color: #ccc;
+		color: #fff;
+		border-top: 1px solid #333;
+		margin: 0;
+		padding: 5px 20px;
+		display: block;
+		cursor: pointer;
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
+	.d_active {
+		background-color: #666;
+		color: #fff;
+	}
+}
+
+.requiredField {
+	color: #ff0039;
+}
+
+.field-error {
+    color: #ff0039;
+}
+
+.field-success {
+    color: #008000;
+}
+
+.margin-top-msg {
+	margin-top: 45px;
+}
+
+.submit input[type="text"]{width:70%; float: left; margin-right:10px;}
+.submit button.btn{float: left;}

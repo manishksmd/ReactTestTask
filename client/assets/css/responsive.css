@@ -1,0 +1,486 @@
+@media (min-width:768px) and (max-width:1200px) {
+    .divtable {
+        width: 1200px;
+    }
+}
+
+@media (max-width:1199px) {
+    .wd150 {
+        width: auto;
+    }
+    .service-box button.mr-sm-4 {
+        margin-right: 10px !important;
+    }
+}
+
+@media (max-width:992px) {
+    .patient-list button.action-btn {
+        padding: 0px 5px 0px 0px;
+    }
+    .patient-list td, .patient-list th {
+        padding: 8px 5px;
+    }
+    /*03-04-17*/
+    .user_lt.patient-list td, .user_lt.patient-list th {
+        padding: 8px 12px;
+    }
+    .dr-wrap .content-title {
+        padding-left: 0.3rem;
+    }
+    /*patient list*/
+    .white-bg.dashbox {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .dashboard-icon {
+        height: 70px;
+        line-height: 65px;
+        width: 70px;
+    }
+    .dashboard-icon img {
+        height: auto;
+        width: 35px;
+    }
+    .dash-content h3 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .dash-content p {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .dashboard-icon i {
+        font-size: 50px;
+        line-height: 70px;
+    }
+    /*dashboard*/
+    .user-add-name {
+        width: 41%;
+    }
+    /*department list*/
+}
+
+@media(min-width:768px) {
+    /*sidebar*/
+    #wrapper {
+        padding-left: 230px;
+    }
+    #wrapper.toggled {
+        padding-left: 70px;
+    }
+    #sidebar-wrapper {
+        width: 230px;
+    }
+    #wrapper.toggled #sidebar-wrapper {
+        width: 70px;
+    }
+    #page-content-wrapper {
+        padding: 0px;
+        position: relative;
+    }
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+    }
+    /*sidebar*/
+}
+
+@media(max-width:767px) {
+    .checkin-btn>button {
+        margin-right: 0px;
+    }
+    /*header*/
+    #sidebar-wrapper {
+        width: 70px;
+    }
+    #wrapper {
+        padding-left: 70px;
+    }
+    /*sidebar*/
+    .service-box {
+        padding: 10px;
+    }
+    /*service page*/
+    /*Div convert accordian*/
+    .accordion-xs .headings {
+        display: none;
+    }
+    .accordion-xs .tr {
+        border-bottom-color: #fff;
+    }
+    .accordion-xs .th, .accordion-xs .td {
+        float: none;
+        width: auto;
+        padding: 0;
+    }
+    .td.lastname>span {
+        display: block;
+    }
+    .accordion-xs .accordion-xs-toggle {
+        background: #F5F5F5;
+        color: #686868;
+        border: 1px solid #ddd;
+        padding: 10px;
+        cursor: pointer;
+        margin-bottom: 20px;
+        font-size: 16px; position:relative;
+    }
+    .accordion-xs .accordion-xs-toggle.collapsed {
+        margin-bottom: 0;
+    }
+    .accordion-xs .accordion-xs-toggle:hover {
+        background-color: #0272b6;
+        color: #fff;
+    }
+	.accordion-xs .accordion-xs-toggle:hover span{color:#fff;}
+    .accordion-xs .accordion-xs-toggle:after {
+        content: '\2b';
+        
+    }
+    .accordion-xs .accordion-xs-toggle.colpsdiv:after {
+        content: '\2212';
+    }
+    .accordion-xs-collapse .inner {
+        margin-bottom: 20px;
+        padding: 0px 15px 0 0;
+        position: relative;
+        height: 240px; overflow-y:scroll;
+    }
+    .accordion-xs-collapse .td::before {
+        color: #686868;
+        display: block;
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    .accordion-xs-collapse .lastname:nth-child(3n+1):before {
+        content: 'CONSULTS: ';
+        padding-top: 30px;
+    }
+    .accordion-xs-collapse .username:nth-child(3n+2)::before {
+        content: 'PMH: ';
+    }
+    .accordion-xs-collapse .lastname:nth-child(3n+3):before {
+        content: 'SUMMARY: ';
+    }
+    .accordion-xs-collapse .username:nth-child(3n+4)::before {
+        content: 'RESULT: ';
+    }
+    .accordion-xs-collapse .lastname:nth-child(3n+5):before {
+        content: 'TREATMENTS: ';
+    }
+    .accordion-xs-collapse .username:nth-child(3n+6)::before {
+        content: 'MEDI/DIET/RESP: ';
+    }
+    .accordion-xs-collapse .lastname:nth-child(3n+7):before {
+        content: 'LINES: ';
+    }
+    .accordion-xs-collapse .username:nth-child(3n+8)::before {
+        content: 'FOLLOW-UPS: ';
+    }
+    .accordion-xs-collapse .lastname:last-child::before {
+        content: "";
+    }
+    .accordion-xs .inner .td:last-child {
+        padding: 0;
+    }
+    .accordion-xs .accordion-xs-toggle:after {
+        position: relative;
+        top:40%; position:absolute;
+        display: inline-block;
+        font-family: 'Glyphicons Halflings';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1; right:15px;
+        -webkit-font-smoothing: antialiased;
+    }
+	
+    .accordion-xs .inner .td {
+        padding-bottom: 20px;
+        color: #000;
+    }
+    .action-click {
+  position: absolute;
+  right: 5px;
+  text-align: right;
+  top: 0;
+}
+    .accordion-xs .inner .td:nth-last-child(2) {
+        padding-bottom: 0;
+    }
+	.collapsediv {
+  display: none;
+}
+.collapsediv.showdiv {
+  display: block;
+}
+    /*Div convert accordian*/
+    .print-btn {
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+    /*signout list deatil*/
+    .modal_data1 {
+        width: auto !important;
+    }
+    /*03-04-17*/
+    .submenu-heading {
+        padding-left: 0px;
+        padding-top: 0px;
+        margin: 30px 0px 13px;
+        text-indent: -9999px;
+    }
+    /*17-05-2017*/
+    .firstname {
+        width: 100% !important;
+    }
+    .lastname {
+        width: 100% !important;
+    }
+}
+
+@media(max-width:650px) {
+    .patient-list {
+        width: 650px;
+        max-width: 650px;
+    }
+    /*patient list*/
+    .roletable {
+        max-width: 100%;
+        width: auto;
+    }
+    /*adduser roll*/
+}
+
+@media(max-width:575px) {
+    /*header*/
+    header {
+        height: auto;
+    }
+    .header-top {
+        height: 50px;
+    }
+    .skip-ham .ham, .ham, .logo {
+        line-height: normal;
+    }
+    .ham {
+        margin-right: 0;
+        padding: 9px 15px 5px;
+    }
+    .ham i {
+        font-size: 30px;
+    }
+    .header-top img {
+        height: 42px;
+        width: auto;
+        margin-top: 4px;
+    }
+    .drop-box, .checkin-btn>button {
+        line-height: 50px;
+        margin: 0px;
+        padding: 0px 3px;
+    }
+    .checkin-btn>button {
+        padding: 0 15px;
+    }
+    .checkin-btn>button:hover, .user-btn:hover {
+        background: none;
+    }
+    .user-btn .dropdown-menu::before {
+        right: 4px;
+        left: inherit;
+    }
+    .user-btn .dropdown-menu {
+        right: 0px;
+        left: inherit;
+        min-width: 8rem;
+    }
+    /*sidebar*/
+    #sidebar-wrapper {
+        margin-top: 0px;
+        position: fixed;
+    }
+    #wrapper {
+        padding-left: 0;
+    }
+    #sidebar-wrapper {
+        width: 0;
+    }
+    #page-content-wrapper {
+        width: 100%;
+    }
+    .toggled+#overlay {
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: block;
+        background-color: rgba(0, 0, 0, 0.50);
+    }
+    .sidebar-nav {
+        padding-top: 50px;
+    }
+    .menu-title span {
+        color: #fff;
+        font-size: 16px;
+        padding: 14px 0 0 26px;
+    }
+    .menu-title i {
+        color: #fff;
+        font-size: 14px;
+        line-height: 18px;
+        padding-left: 5px;
+        vertical-align: bottom;
+    }
+    #wrapper.togle-bar {
+        padding-left: 0;
+    }
+    .togle-bar #sidebar-wrapper {
+        width: 0;
+    }
+    #wrapper.togle-bar.toggled {
+        padding-left: 0;
+    }
+    /*common css*/
+    .pd-off-xs {
+        padding: 0px;
+    }
+    .mrg-top30 {
+        margin-top: 15px;
+    }
+    .sign-whtbox {
+        margin-bottom: 15px;
+    }
+    /*common css*/
+    .add-btn {
+        border-radius: 100px;
+        height: 40px;
+        padding: 2px;
+        width: 40px;
+        overflow: hidden;
+    }
+    .add-btn i {
+        font-size: 1.5rem;
+    }
+    .blue-btn.add-btn {
+        border-radius: 50%;
+    }
+    /*05-04-17*/
+    /*patient page*/
+    .service-box p {
+        min-height: auto;
+    }
+    .service-box button.mr-sm-4 {
+        margin-right: 15px !important;
+    }
+    .service-box {
+        padding: 15px;
+    }
+    /*services page*/
+    .form-inline {
+        width: 100%;
+    }
+    .patient-list .check-pop .modal-footer button.grey-btn {
+        margin-right: 1.5rem;
+    }
+    /*petient list*/
+    .account-form .form-group {
+        margin-bottom: 30px;
+    }
+    .account-form .blue-btn {
+        margin-top: 10px;
+    }
+    /*account page*/
+   /* .add-pt .search-bar {
+        width: 50%;
+    }*/
+    /*add pateint popup*/
+    .userroll button.blue-btn.sv-add {
+        display: block;
+        margin: 0 auto;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .userroll .checkbox .cr {
+        margin-bottom: 20px;
+        margin-top: 4px;
+    }
+    .userroll .mr-lg-off {
+        margin-bottom: 30px;
+    }
+    /*adduser and roll*/
+    .user_btn1 .dropdown-toggle {
+        line-height: 50px;
+        padding: 0px !important;
+    }
+    header .user_btn1 .dropdown-toggle {
+        padding: 0 8px !important;
+    }
+    .checkin-btn>button {
+        padding: 0 8px;
+    }
+    /*20-02-17*/
+    .modal-footer .mr-sm-4 {
+        margin-right: 1.5rem;
+    }
+    /*22-0217*/
+    .lbl-lt .form-group {
+        margin-bottom: 0;
+    }
+    .lbl-lt .form-group>div {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:480px) {
+    .search-bar.depart-serach {
+        float: left;
+        width: 100%;
+    }
+    .search-bar.depart-serach .inputMaterial {
+        width: 95%;
+    }
+    .search-bar.depart-serach .bar {
+        width: 95%;
+    }
+    .user-add-name {
+        width: 100%;
+    }
+    .user-add-name button {
+        width: 87%;
+    }
+	.dept_list button.mui-btn.mr-3 {
+  margin-right: 0.5rem !important;
+}
+}
+
+@media (max-width:420px) {
+    /*directory*/
+    .sub-title {
+        display: block;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 12px;
+    }
+    .dir-search {
+        float: none;
+        margin: 0 auto;
+    }
+    /*directory*/
+    .crt-patient {
+        margin-left: 10px;
+    }
+    /*add pateint popup*/
+    .login-box {
+        width: 90%;
+    }
+    /*Login page*/
+		.dept_list button.add-deprt {
+  width:100%;
+}
+.dept_list button.add-deprt.mr-3 {
+  margin-bottom:0px;
+}
+}
